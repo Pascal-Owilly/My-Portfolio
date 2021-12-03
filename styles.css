@@ -1,0 +1,14 @@
+body {
+    color: white;
+}
+.navbar{
+    background-color: black;
+    color: white;
+}
+.navbar a {
+    color: white;
+    text-decoration: underline;
+}
+a:hover{
+    color: rgb(9, 83, 40);
+}
