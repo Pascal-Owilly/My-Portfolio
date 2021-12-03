@@ -12,3 +12,17 @@ body {
 a:hover{
     color: rgb(9, 83, 40);
 }
+
+.navbar{
+    height: 650px;
+}
+p {
+    font-size: 32px;
+    transition: 2s top;
+
+}
+.main{
+    margin-top: -400px;
+}
+
+
