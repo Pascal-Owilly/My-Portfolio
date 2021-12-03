@@ -12,3 +12,8 @@ body {
 a:hover{
     color: rgb(9, 83, 40);
 }
+
+.navbar{
+    height: 500px;
+}
+
