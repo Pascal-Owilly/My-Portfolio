@@ -1,0 +1,1 @@
+document.getElementById('btn-contact').innerHTML = "Let's get in touch"
