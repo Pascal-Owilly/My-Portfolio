@@ -12,10 +12,6 @@
        text-decoration: none
    }
 
-   .navbar li>a:hover {
-       color: black;
-   }
-
    nav .navbar-brand {
        color: rgb(23, 155, 78);
        font-size: 25px;
@@ -36,6 +32,7 @@
    .navbar {
        height: 600px;
        padding: 20px 20px 0 10px;
+       transition: 2s;
    }
 
    span {
@@ -77,4 +74,24 @@
        width: 200px;
        transition: 1s;
        color: white;
+   }
+
+   .glyphicons {
+       float: right;
+       color: #fff;
+       font-size: 25px;
+       font-family: PatuaOne-Regular;
+       writing-mode: vertical-lr;
+       text-orientation: upright;
+       margin: -150px 20px 0 0 ;
+   }
+   .glyphicons a {
+       color: rgb(23, 155, 78);
+
+   }
+   .glyphicons a:hover{
+       color: #fff;
+       transform: rotate(360deg);
+       transition: 1s;
+       text-decoration: underline;
    }
