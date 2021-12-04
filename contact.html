@@ -23,18 +23,16 @@
         <li><a href="career.html">Career</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="ip1/contact.html"></a><button type="button" id="btn5" onmouseover="document.getElementById('btn5').innerHTML='Lets get in touch'"
-            onmouseleave="document.getElementById('btn5').innerHTML='Contact'">Contact</button></li>
+        <li><button type="button" id="btn5" onmouseover="document.getElementById('btn5').innerHTML='Lets get in touch'"
+            onmouseleave="document.getElementById('btn5').innerHTML='Contact'"><a href="contact.html">Contact</a></button></li>
       </ul>
       </ul>
     </div>
     <div class="container-fluid">
       <div class="main">
-        <p> <span>Hi, I am Pascal</span> <br> A software developer</p>
-        <p>A front-end web developer</p>
-      </div>
+       <h2>I'll get back to you as soon as you fill this form</h2>
     </div>
-  
+<!--   
 <div class="glyphicons">
   <a href="#" class="fa fa-facebook"></a>
 <a href="#" class="fa fa-twitter"></a>
@@ -43,11 +41,32 @@
 <a href="#" class="fa fa-instagram"></a>
 <a href="#" class="fa fa-pinterest"></a>
 <a href="#" class="fa fa-skype"></a>
+</div> -->
+
+
+<div class="container">
+<div class="jumbotron mt-3">
+  <h2>Leave a amessage and i'll get back to you</h2>
+  <form action="">
+    <div class="mb-3 mt-3">
+      <label for="email">Email:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" required>
+    </div>
+    <div class="mb-3">
+      <label for="pwd">Password:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd" required>
+    </div>
+    <div class="form-check mb-3">
+      <label class="form-check-label">
+        <input class="form-check-input" type="checkbox" name="remember"> Remember me
+        
+      </label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
 </div>
-</nav>
 
-
-
+</div></div></nav>
 
 <script src="script.js">
 </script>

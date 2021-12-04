@@ -1,5 +1,4 @@
    body {
-       color: white;
    }
 
    .navbar {
@@ -27,6 +26,8 @@
    nav .navbar-brand:hover {
        color: rgb(185, 136, 136);
        font-family: sans-serif;
+       text-decoration: underline;
+       transition: 1s;
    }
 
    .navbar {
@@ -75,6 +76,7 @@
        transition: 1s;
        color: white;
    }
+   
 
    .glyphicons {
        float: right;
