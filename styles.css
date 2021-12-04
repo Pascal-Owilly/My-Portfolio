@@ -1,3 +1,4 @@
+   
 body {
     color: white;
 }
@@ -6,14 +7,71 @@ body {
     color: white;
 }
 .navbar a {
-    color: white;
-    text-decoration: underline;
+    color: rgb(221, 210, 210);
+    text-decoration: none
+
 }
+
+.navbar li > a:hover {
+    color: black;
+}
+
+nav .navbar-brand {
+    color: rgb(23, 155, 78);
+    font-size: 25px;
+    font-weight: 800px;
+    font-family: PatuaOne-Regular;
+}
+
 a:hover{
-    color: rgb(9, 83, 40);
+    color: rgb(14, 112, 55);
+
 }
 
-.navbar{
-    height: 500px;
+nav .navbar-brand:hover {
+   color: rgb(185, 136, 136);
+font-family: sans-serif;
 }
 
+ .navbar{
+    height: 600px;
+    padding: 20px 20px 0 10px;
+} 
+
+span {
+    font-size: 20px;
+    font-weight: 800;
+    color: rgb(23, 155, 78);
+}
+
+.nav li{
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.container-fluid{
+    padding-left: 30px;
+  }
+ .main p {
+    font-size: 32px;
+    transition: all 1s  ease;
+    margin-top: 50px;
+}
+#btn5{
+    width: 100px;
+    height: 50px;
+    transition: width 1s ease-out;
+    background-color: rgb(56, 11, 11);
+    border: 2px inset yellow;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(23, 155, 78);
+    font-family: sans-serif;
+    border-radius: 30px 30px 0 30px;
+    margin-top: 15px;
+}
+#btn5:hover {
+   width: 200px;
+   transition: 1s;
+   color: white;
+}
