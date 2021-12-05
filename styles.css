@@ -2,123 +2,123 @@ body {
     transition: all 2s;
 }
 
-   .navbar {
-       background-image: url('images/hero-img.png');
-       background-repeat: no-repeat;
-       background-size: cover;
-       background-size: 1200px 700px ;
-       background-position: right;
-       background-attachment: fixed;
-       background-color: black;
-       color: white;
-       height: 900px;
-   }
+.navbar {
+    background-image: url('images/hero-img.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 1200px 700px;
+    background-position: right;
+    background-attachment: fixed;
+    background-color: black;
+    color: white;
+    height: 900px;
+}
 
-   .navbar a {
-       color: rgb(221, 210, 210);
-       text-decoration: none
-   }
+.navbar a {
+    color: rgb(221, 210, 210);
+    text-decoration: none
+}
 
-   nav .navbar-brand {
-       color: rgb(23, 155, 78);
-       font-size: 25px;
-       font-weight: 800px;
-       font-family: PatuaOne-Regular;
-       position: static;
-   }
+nav .navbar-brand {
+    color: rgb(23, 155, 78);
+    font-size: 25px;
+    font-weight: 800px;
+    font-family: PatuaOne-Regular;
+    position: static;
+}
 
-   a:hover {
-       color: rgb(14, 112, 55);
+a:hover {
+    color: rgb(14, 112, 55);
 
-   }
+}
 
-   nav .navbar-brand:hover {
-       color: rgb(185, 136, 136);
-       font-family: sans-serif;
-       text-decoration: underline;
-       transition: 1s;
-   }
+nav .navbar-brand:hover {
+    color: rgb(185, 136, 136);
+    font-family: sans-serif;
+    text-decoration: underline;
+    transition: 1s;
+}
 
-   .navbar {
-       height: 600px;
-       padding: 20px 20px 0 10px;
-       transition: 2s;
-   }
+.navbar {
+    height: 600px;
+    padding: 20px 20px 0 10px;
+    transition: 2s;
+}
 
-   span {
-       font-size: 20px;
-       font-weight: 800;
-       color: rgb(23, 155, 78);
-   }
+span {
+    font-size: 20px;
+    font-weight: 800;
+    color: rgb(23, 155, 78);
+}
 
-   .nav li {
-       font-size: 20px;
-       padding-left: 10px;
-   }
+.nav li {
+    font-size: 20px;
+    padding-left: 10px;
+}
 
-   .container-fluid {
-       padding-left: 30px;
-   }
+.container-fluid {
+    padding-left: 30px;
+}
 
-   .main p {
-       font-size: 32px;
-       transition: all 1s ease;
-       margin-top: 50px;
-   }
+.main p {
+    font-size: 32px;
+    transition: all 1s ease;
+    margin-top: 50px;
+}
 
-   #btn5 {
-       width: 100px;
-       height: 50px;
-       transition: width 1s ease-out;
-       background-color: rgb(56, 11, 11);
-       border: 2px inset yellow;
-       font-size: 20px;
-       font-weight: 600;
-       color: rgb(23, 155, 78);
-       font-family: sans-serif;
-       border-radius: 30px 30px 0 30px;
-       margin-top: -10px;
-       margin-left: 90px;
-   }
+#btn5 {
+    width: 100px;
+    height: 50px;
+    transition: width 1s ease-out;
+    background-color: rgb(56, 11, 11);
+    border: 2px inset yellow;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(23, 155, 78);
+    font-family: sans-serif;
+    border-radius: 30px 30px 0 30px;
+    margin-top: -10px;
+    margin-left: 90px;
+}
 
-   #btn5:hover {
-       width: 200px;
-       transition: 1s;
-       color: white;
-   }
+#btn5:hover {
+    width: 200px;
+    transition: 1s;
+    color: white;
+}
 
 
-   .glyphicons {
-       color: #fff;
-       font-size: 25px;
-       font-family: PatuaOne-Regular;
-       /* writing-mode: vertical-lr; */
-       margin: 200px 20px 0 0;
+.glyphicons {
+    color: #fff;
+    font-size: 25px;
+    font-family: PatuaOne-Regular;
+    /* writing-mode: vertical-lr; */
+    margin: 200px 20px 0 0;
 
-   }
+}
 
-   .glyphicons a {
-       color: rgb(23, 155, 78);
+.glyphicons a {
+    color: rgb(23, 155, 78);
 
-   }
+}
 
-   .glyphicons a:hover {
-       color: #fff;
-       transform: rotate(360deg);
-       transition: 1s;
-       text-decoration: underline;
-   }
-   @media screen and (min-width:480px){
-       .glyphicons{
-           margin-top: 1490px;
-           text-align: center;
-       }
-   }
-   @media screen and (min-width:720px){
-       .glyphicons{
+.glyphicons a:hover {
+    color: #fff;
+    transform: rotate(360deg);
+    transition: 1s;
+    text-decoration: underline;
+}
+
+@media screen and (min-width:480px) {
+    .glyphicons {
+        margin-top: 1490px;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:720px) {
+    .glyphicons {
         position: absolute;
         margin-top: 100px;
-       }
-   }
-
- 
+    }
+}
