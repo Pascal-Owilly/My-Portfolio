@@ -1,4 +1,4 @@
-   body {}
+
 
    .navbar {
        background-image: url('images/hero-img.png');
@@ -9,6 +9,7 @@
        background-attachment: fixed;
        background-color: black;
        color: white;
+       height: 900px;
    }
 
    .navbar a {
@@ -86,13 +87,12 @@
 
 
    .glyphicons {
-       float: right;
        color: #fff;
        font-size: 25px;
        font-family: PatuaOne-Regular;
-       writing-mode: vertical-lr;
-       text-orientation: upright;
-       margin: -150px 20px 0 0;
+       /* writing-mode: vertical-lr; */
+       margin: 200px 20px 0 0;
+
    }
 
    .glyphicons a {
@@ -107,13 +107,4 @@
        text-decoration: underline;
    }
 
-   .footer {
-       position: fixed;
-       left: 0;
-       bottom: 0;
-       width: 100%;
-       background-color: red;
-       color: white;
-       text-align: center;
-   }
-   
+  
