@@ -1,4 +1,6 @@
-
+body {
+    transition: all 2s;
+}
 
    .navbar {
        background-image: url('images/hero-img.png');
@@ -119,4 +121,4 @@
        }
    }
 
-   
+ 
