@@ -106,5 +106,17 @@
        transition: 1s;
        text-decoration: underline;
    }
+   @media screen and (min-width:480px){
+       .glyphicons{
+           margin-top: 1490px;
+           text-align: center;
+       }
+   }
+   @media screen and (min-width:720px){
+       .glyphicons{
+        position: absolute;
+        margin-top: 100px;
+       }
+   }
 
   
