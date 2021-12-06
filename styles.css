@@ -83,7 +83,7 @@ span {
 
 #btn5:hover {
     width: 200px;
-    transition: 1s;
+    transition: .7s;
     color: white;
 }
 
