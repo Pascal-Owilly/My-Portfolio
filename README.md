@@ -19,4 +19,4 @@ or
 0712154175*. Thank you.
 
 ## Here is the link to my repository
-*pascal-owilly.github.io/my-portfolio/*
+*https://pascal-owilly.github.io/My-Portfolio/*
