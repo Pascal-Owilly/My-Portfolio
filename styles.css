@@ -1,6 +1,7 @@
-body {
-    transition: all 2s;
-}
+
+/* body {
+    transition: all 1s;
+} */
 
 .navbar {
     background-image: url('images/hero-img.png');
@@ -18,6 +19,7 @@ body {
     color: rgb(221, 210, 210);
     text-decoration: none
 }
+
 
 nav .navbar-brand {
     color: rgb(23, 155, 78);
@@ -83,8 +85,8 @@ span {
 
 #btn5:hover {
     width: 200px;
-    transition: .7s;
-    color: white;
+    transition-duration: .2s;
+    background-color: #fff;
 }
 
 
