@@ -1,8 +1,8 @@
 # My Portfolio
-# Hi, this portfolio is about what I do, web development. 
+### Hi, this portfolio is about what I do, web development. 
 #### By Pascal Owilly & Moringa School
 ## Description
-This profile contains some of my previous projects which I have done both indivigually and in groups. It's always a pleasure to to this
+This profile contains some of my previous projects which I have done both individually and in groups. It's always a pleasure to to this
 ## Setup/Installation Requirements
 * So far I have tested this project on chrome and mozilla firefox and I can confidently say that they are all compatible.
 ## Known Bugs
