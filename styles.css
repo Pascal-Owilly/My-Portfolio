@@ -63,7 +63,7 @@ span {
 }
 
 .main p {
-    font-size: 32px;
+    font-size: 27px;
     transition: all 1s ease;
     margin-top: 50px;
 }
@@ -71,7 +71,7 @@ span {
 #btn5 {
     width: 100px;
     height: 50px;
-    transition: width 1s ease-out;
+    transition: .4s ease-out;
     background-color: rgb(56, 11, 11);
     border: 2px inset yellow;
     font-size: 15.55px;
