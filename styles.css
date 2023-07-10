@@ -3,6 +3,11 @@
     transition: all 1s;
 } */
 
+h1 {
+    text-align: center;
+    margin: 35px 0 20px 0 !important;
+  }
+
 .navbar {
     background-image: url('images/hero-img.png');
     background-repeat: no-repeat;
