@@ -8,56 +8,141 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="script.js">
+  <style>
+    .jumbotron {
+      background-color: #111;
+      color: white;
+      font-size: 20px;
+      width: 100%;
+      margin: auto;
+      padding: 20px;
+      margin-top: 0;
+    }
+
+    .card {
+      margin-bottom: 20px;
+    }
+
+    .card h2 {
+      text-align: left;
+      color: white;
+      padding-top: 0;
+      font-family: verdana;
+      font-weight: 800;
+      margin-top: -30px;
+    }
+
+    .card-body p {
+      margin-bottom: 5px;
+    }
+
+    .card-body a {
+      color: rgb(23, 155, 78);
+      background-color: black;
+    }
+
+    .footer {
+      margin-top: -10px;
+      width: 100%;
+      margin-left: -30px;
+    }
+
+    .glyphicons {
+      margin-top: 0;
+      background-color: black;
+      width: 100%;
+      padding-top: 20px;
+    }
+
+    .glyphicons a {
+      margin-left: -250px;
+      padding-top: 20px;
+    }
+
+    .footer p {
+      float: left;
+      margin-top: -7px;
+      color: rgb(23, 155, 78);
+    }
+
+    @media (max-width: 767px) {
+      .jumbotron .row {
+        flex-direction: column;
+      }
+
+      .jumbotron .col-md-6 {
+        margin-bottom: 20px;
+      }
+
+      .footer .glyphicons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding-top: 0;
+      }
+
+      .footer .glyphicons a {
+        margin: 5px;
+      }
+    }
+  </style>
 </head>
 
 <body>
-  <nav class="navbar" style="height: 100vh;overflow: scroll;">
+  <nav class="navbar navbar-default" style="height: 100vh; overflow: scroll;">
     <div class="container-fluid">
       <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
         <a class="navbar-brand" href="portfolio.html">PROJECTS</a>
       </div>
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="career.html">Career</a></li>
-        <li><a style="background-color: transparent;" href="contact.html"><button type="button" id="btn5"
-          onmouseover="document.getElementById('btn5').innerHTML='Nice to meet you'"
-          onmouseleave="document.getElementById('btn5').innerHTML='Contact'">Contact</button></a></li>
-
-
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-      </ul>
-      </ul>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="career.html">Career</a></li>
+          <li><a style="background-color: transparent;" href="contact.html"><button type="button" id="btn5"
+                onmouseover="document.getElementById('btn5').innerHTML='Nice to meet you'"
+                onmouseleave="document.getElementById('btn5').innerHTML='Contact'">Contact</button></a></li>
+        </ul>
+      </div>
     </div>
-    <div class="container-fluid"><hr style="width: 55%;float: left;">
+    <div class="container-fluid">
+      <hr style="width: 55%;float: left;">
       <div class="main">
-        <p> <span>Hi, I am Pascal</span> <br> A full stack software developer <br> <span> Python </span>, <span> Django</span>,
-           <span>ReactJs</span>, <span>Flask</span> , <span> JavaScript</span></p>
-        
-          <p style="font-size: 17px;text-decoration: overline;color: rgb(23, 155, 78);">Check out my projects in the <a style="text-shadow: 1px solid #fff;color: blue;text-decoration: underline;" href="https://pascal-owilly.github.io/My-Portfolio/portfolio.html"> Portfolio Section </a> </p>
+        <p>Hi, I am Pascal</p>
+        <p>A full stack software developer</p>
+        <p><span>Python</span>, <span>Django</span>, <span>ReactJs</span>, <span>JavaScript</span>, <span>Html</span>,  <span>Html</span> <span style="font-size: 14px;color: white;">and</span> <span>Bootstrap</span> </p>
+        <p>
+          <span style="font-size: 17px;text-decoration: overline;color: rgb(23, 155, 78);">
+            Check out my projects in the <a style="text-shadow: 1px solid #fff;color: blue;text-decoration: underline;"
+              href="https://pascal-owilly.github.io/My-Portfolio/portfolio.html">Portfolio Section</a>  
+          </span>
         </p>
+        <p>
+          <a href="pdf/CV-PASCAL-OWILLY.pdf" download>
+            <span style="color: #fff;border: 1px solid #fff;border-radius: 30px;padding: 10px;">Download Resume
+              <img src="https://icons.iconarchive.com/icons/graphicloads/colorful-long-shadow/256/Arrow-download-icon.png"
+                alt="" width="3%" />
+            </span>
+          </a>
         </p>
-        <p><a href="pdf/CV-PASCAL-OWILLY.pdf" download>
-          <span style="color: #fff;border: 1px solid #fff;border-radius: 30px;padding: 10px;">Download Resume <img src="https://icons.iconarchive.com/icons/graphicloads/colorful-long-shadow/256/Arrow-download-icon.png" alt="" width="3%" /> </span>
-        </a></p>
       </div>
       <div class="glyphicons">
         <a href="https://web.facebook.com/rascal.jack.7" class="fa fa-facebook"></a>&nbsp;&nbsp;
         <a href="https://www.linkedin.com/in/pascal-owilly-1964aa114" class="fa fa-linkedin"></a>&nbsp;&nbsp;
         <a href="https://www.instagram.com/pascal_owilly" class="fa fa-instagram"></a>&nbsp;&nbsp;
       </div>
-
     </div>
-
-    
-
-
   </nav>
 
-  <script src="script.js">
-  </script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </body>
 
 </html>

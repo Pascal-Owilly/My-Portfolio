@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -8,47 +9,143 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="script.js">
+    <style>
+
+nav{
+                height: 100vh !important;
+            }
+
+        .navbar .navbar-toggle .icon-bar {
+            background-color: goldenrod;
+        }
+        
+        .navbar .navbar-brand {
+            padding: 15px;
+        }
+        
+        .jumbotron {
+            background-color: #111;
+            color: white;
+            font-size: 20px;
+            font-weight: 800;
+            text-align: center;
+            padding: 20px;
+            margin-bottom: 30px;
+        }
+        
+        .education-section {
+            margin-top: 30px;
+        }
+        
+        .education-section h3 {
+            margin-top: 0;
+        }
+        
+        .education-section h4 {
+            margin-bottom: 5px;
+        }
+        
+        .education-section p {
+            font-size: 17px;
+            margin-bottom: 20px;
+        }
+        
+        .education-section ul {
+            font-size: 17px;
+            margin-top: 0;
+            margin-bottom: 20px;
+            padding-left: 20px;
+        }
+        
+        .education-section li {
+            margin-bottom: 5px;
+        }
+        
+        .education-section img {
+            width: 50px;
+        }
+        
+        @media (max-width: 767px) {
+            .navbar .navbar-collapse {
+                margin-top: 15px;
+            }
+        
+            .navbar .navbar-nav {
+                flex-direction: column;
+            }
+        
+            .navbar .navbar-nav li {
+                margin-bottom: 10px;
+            }
+        
+            .navbar .navbar-toggle {
+                margin-right: 0;
+            }
+
+            .jumbotron{
+                margin-top: 4vh !important;
+            }
+
+            nav{
+                height: 110vh !important;
+            }
+        }
+    </style>
 </head>
 
 <body>
-    <nav class="navbar" style="height: 100vh;">
+    <nav class="navbar navbar-default">
         <div class="container-fluid">
             <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
                 <a class="navbar-brand" href="portfolio.html">PROJECTS</a>
             </div>
-            <ul class="nav navbar-nav">
-                <li class="active"><a href="index.html">Home</a></li>
-                <li><a href="about.html">About me</a></li>
-                <li><a href="career.html">Career</a></li>
-                <li><a style="background-color: transparent;" href="contact.html"><button type="button" id="btn5"
-                    onmouseover="document.getElementById('btn5').innerHTML='Nice to meet you'"
-                    onmouseleave="document.getElementById('btn5').innerHTML='Contact'">Contact</button></a></li>
-      
-      
-            </ul>
+
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About me</a></li>
+                    <li><a href="career.html">Career</a></li>
+                    <li><a style="background-color: transparent;" href="contact.html"><button type="button" id="btn5"
+                                onmouseover="document.getElementById('btn5').innerHTML='Nice to meet you'"
+                                onmouseleave="document.getElementById('btn5').innerHTML='Contact'"
+                                class="btn btn-goldenrod">Contact</button></a></li>
+                </ul>
+            </div>
         </div>
         <div class="container">
-            <div class="jumbotron" style="background-color: #111;width: 400px;font-size: 20px; rgb(23, 155, 78);">
-                <h3 style="color: rgb(23, 155, 78);font-weight: 800;text-align: center;">A little about me </span> </li>
-                </h3> <hr>
-
-
-
-                <h3>Education</h3>
-                <h4> <span>School :</span> <a href="https://moringaschool.com/courses/software-engineering-course-online/?gclid=Cj0KCQjwyYKUBhDJARIsAMj9lkGaCLSEnJdpxqA5yACCCJsfqzZYSVivE8AvDjJwq7CPVCBUAwhHO-AaAmaREALw_wcB"><i> Moringa School</i></a></h4>
-                <p style="font-size: 17px;"> <span>Course :</span> Full stack web development <br>
-                   
-                </p><hr>
-                <p style="font-size: 17px;"> I chose programming because am very passionate about computer science
-
-                    <ul style="font-size: 17px;">
+            <div class="  mt-5">
+                <h3>A little about me</h3>
+                <hr style="margin-left: 0 !important;width: 30%;">
+                <div class="education-section">
+                    <h3>Education</h3>
+                    <h4>School: <a href="https://moringaschool.com/courses/software-engineering-course-online/?gclid=Cj0KCQjwyYKUBhDJARIsAMj9lkGaCLSEnJdpxqA5yACCCJsfqzZYSVivE8AvDjJwq7CPVCBUAwhHO-AaAmaREALw_wcB"><i>Moringa
+                                School</i></a></h4>
+                    <p>Course: Full stack web development</p>
+                    <hr style="margin-left: 0 !important;width: 30%;">
+                    <p>I chose programming because I am very passionate about computer science.</p>
+                    <ul>
                         <li>I love web and chess</li>
                         <li>I delight in timely delivery</li>
-                        <li>I smile a lot in real life <span style="font-size: 30px;color: green;">&#128514</span> </li>
+                        <li>I smile a lot in real life <span style="font-size: 30px;color: green;">&#128514;</span></li>
                     </ul>
                     <img src="https://az705183.vo.msecnd.net/onlinesupportmedia/onlinesupport/media/skype/fa300xx/headphones_40x40.gif"
-                        alt="" style="width: 50px;">
-            </div><hr style="width: 30%;" />
+                        alt="">
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </body>
 
 </html>

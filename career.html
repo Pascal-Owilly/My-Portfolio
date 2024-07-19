@@ -9,45 +9,141 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="script.js">
+    <style>
+        .navbar .navbar-collapse {
+            height: 100vh;
+            color: goldenrod;
+        }
+        
+        .navbar-toggle{
+            color: goldenrod;
+        }
+
+        .navbar-toggle .icon-bar {
+            background-color: goldenrod;
+        }
+
+        .navbar .navbar-nav {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding-top: 20px;
+        }
+        
+        .navbar .navbar-nav li {
+            margin-left: 20px;
+        }
+        
+        .navbar .navbar-nav li a {
+            padding: 5px 10px;
+            border-radius: 4px;
+        }
+        
+        .navbar .navbar-nav li a:hover,
+        .navbar .navbar-nav li a:focus {
+            background-color: #eee;
+        }
+        
+        .navbar .navbar-nav li.active a {
+            background-color: #000;
+        }
+        
+        .main {
+            margin-top: 20px;
+        }
+        
+        .glyphicons-career {
+            margin-top: 40px;
+        }
+        
+        @media (min-width: 768px) {
+            .navbar .navbar-nav {
+                flex-direction: row;
+                align-items: center;
+                padding-top: 0;
+            }
+        
+            .navbar .navbar-nav li {
+                margin-left: 10px;
+            }
+        
+            .navbar .navbar-nav li a {
+                padding: 15px 20px;
+            }
+        
+            .navbar .navbar-collapse {
+                height: auto;
+            }
+        
+            .main {
+                margin-top: 0;
+            }
+        
+            .glyphicons-career {
+                margin-top: 0;
+                font-size: 30px;
+            }
+        }
+    </style>
 </head>
 
 <body>
-    <nav class="navbar" style="height:100vh">
+    <nav class="navbar">
         <div class="container-fluid">
             <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#myNavbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
                 <a class="navbar-brand" href="portfolio.html">PROJECTS</a>
             </div>
-            <ul class="nav navbar-nav">
-                <li class="active"><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="career.html">Career</a></li>
-                <li><a style="background-color: transparent;" href="contact.html"><button type="button" id="btn5"
-                    onmouseover="document.getElementById('btn5').innerHTML='Nice to meet you'"
-                    onmouseleave="document.getElementById('btn5').innerHTML='Contact'">Contact </button></a></li>
-      
-      
 
+            <div class="collapse navbar-collapse" id="myNavbar" style="color: goldenrod !important;">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="career.html">Career</a></li>
+                    <li><a style="background-color: transparent;" href="contact.html"><button type="button"
+                                id="btn5" onmouseover="document.getElementById('btn5').innerHTML='Nice to meet you'"
+                                onmouseleave="document.getElementById('btn5').innerHTML='Contact'">Contact</button></a>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <div class="container-fluid"><hr style="width: 60%;float: left;">
-            <div class="main">
-                <p style="font-size: 24px;"> A software developer with skills &#38; ability to create and design websites <br> with stanning
-                     outlook
-                    together with user friendliness,<br> perfect layout and responsiveness.
-                </p>
-            </div><hr style="float: left;width: 50%;">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <hr>
+                </div>
+                <div class="col-xs-12 col-md-6">
+                    <div class="main">
+                        <p style="font-size: 24px;">A software developer with skills & ability to create and design
+                            websites<br>with stunning outlook together with user friendliness,<br>perfect layout and
+                            responsiveness.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-6">
+                    <hr>
+                </div>
+            </div>
         </div>
-        <div class="glyphicons-career" style="color: white;margin-top: 200px;font-size: 25px;">
+    
+        <div class="glyphicons-career" style="color: white;">
             <a href="https://web.facebook.com/rascal.jack.7" class="fa fa-facebook"></a>&nbsp;&nbsp;
             <a href="https://www.linkedin.com/in/pascal-owilly-1964aa114" class="fa fa-linkedin"></a>&nbsp;&nbsp;
-                 <a href="https://www.instagram.com/pascal_owilly" class="fa fa-instagram"></a>&nbsp;&nbsp;
-          </div>
-
+            <a href="https://www.instagram.com/pascal_owilly" class="fa fa-instagram"></a>&nbsp;&nbsp;
+        </div>
     </nav>
 
 
 
-    <script src="script.js">
-    </script>
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </body>
 
 </html>

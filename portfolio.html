@@ -9,128 +9,172 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="script.js">
+  <style>
+    .jumbotron {
+      background-color: #111;
+      color: white;
+      font-size: 20px;
+      width: 100%;
+      margin: auto;
+      padding: 20px;
+      margin-top: 0;
+    }
+
+    nav{
+      height: 150vh !important;
+    }
+
+    .card {
+      margin-bottom: 20px;
+    }
+
+    .card h2 {
+      text-align: left;
+      color: white;
+      padding-top: 0;
+      font-family: verdana;
+      font-weight: 800;
+      margin-top: -30px;
+    }
+
+    .card-body p {
+      margin-bottom: 5px;
+    }
+
+    .card-body a {
+      color: rgb(23, 155, 78);
+      background-color: black;
+    }
+
+    .footer {
+      margin-top: -10px;
+      width: 100%;
+      margin-left: -30px;
+    }
+
+    .glyphicons {
+      margin-top: 0;
+      background-color: black;
+      width: 100%;
+      padding-top: 20px;
+    }
+
+    .glyphicons a {
+      margin-left: -250px;
+      padding-top: 20px;
+    }
+
+    .footer p {
+      float: left;
+      margin-top: -7px;
+      color: rgb(23, 155, 78);
+    }
+
+    @media (max-width: 767px) {
+      .jumbotron .row {
+        flex-direction: column;
+      }
+
+      .jumbotron .col-md-6 {
+        margin-bottom: 20px;
+      }
+
+      .footer .glyphicons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding-top: 0;
+      }
+
+      .footer .glyphicons a {
+        margin: 5px;
+      }
+    }
+  </style>
 </head>
 
 <body>
-  <nav class="navbar" style="height: 80vh;">
+  <nav class="navbar navbar-default">
     <div class="container-fluid">
       <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
         <a class="navbar-brand" href="portfolio.html">PROJECTS</a>
       </div>
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="index.html">Home</a></li>
-        <li><a href="about.html">About me</a></li>
-        <li><a href="career.html">Career</a></li>
-        <li><a style="background-color: transparent;" href="contact.html"><button type="button" id="btn5"
-              onmouseover="document.getElementById('btn5').innerHTML='Lets get in touch'"
-              onmouseleave="document.getElementById('btn5').innerHTML='Contact'">Contact </button></a></li>
 
-
-      </ul>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="about.html">About me</a></li>
+          <li><a href="career.html">Career</a></li>
+          <li>
+            <a style="background-color: transparent;" href="contact.html">
+              <button type="button" id="btn5" onmouseover="document.getElementById('btn5').innerHTML='Lets get in touch'"
+                onmouseleave="document.getElementById('btn5').innerHTML='Contact'"
+                class="btn btn-goldenrod">Contact
+              </button>
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
-    <div class="container-fluid">
-        <hr style="width: 57%;float: left;">
-        <div class="main"><br><br>
-          <h3>Hi, here is what I do </h3>
-          <p> <span style="font-size: 24px;font-family: verdana;">I develop responsive websites across all devices   <br>
-              <br><br> <span style="font-size: 20px;color: white;margin-left: 0;font-family: sans-serif;"> </span></p>
+
+    <div class="container-fluid" style="margin-top: 10vh;">
+      <div class="jumbotr" style="background-color: ;">
+        <div class="row">
+          <div class="col-md-6">
+            <h2 class="mt-4">Akan Names</h2>
+            <div class="card">
+              <img class="card-img-top" src="images/akan.png" alt="Akan Names" style="width:100%">
+              <div class="card-body">
+                <h4 class="card-title">Akan Names</h4>
+                <p class="card-text">Know your name the Ghanaian way</p>
+                <a href="https://pascal-owilly.github.io/Akan-Names/" class="btn btn-primary">Visit site
+                  <span style="width: 10px; color: white;">&#x2192;</span>
+                </a>
+              </div>
+            </div>
+          </div>
   
-      </div>
-    </div>
-
-
-  </nav>
-
-  <div class="container-fluid" style="background-color: rgb(24, 2, 2);margin-top: -20px;">
-    <div class="jumbotron" style="width: 100%;margin: auto;background-color: goldenrod;margin-top: 0px;">
-      <row>
-      <div class="col-md-6">
-        <h2
-          style="text-align: left;color: white;padding-top: 0;font-family: verdana;font-weight: 800;margin-top: -30px;">
-          Akan Names</h2>
-        <div class="card"">;
-          <img class=" card-img-top" src="images/akan.png" alt="Letuce eat" style="width:100%">
-          <div class="card-body">
-            <h4 class="card-title">Akan Names</h4>
-            <p class="card-text">Know your name the Ghanaian way</p>
-
-            </ol>
-            <a href="https://pascal-owilly.github.io/Akan-Names/" class="btn btn-primary"
-              style="background-color: black;color: rgb(23, 155, 78);">Visit site <span
-                style="width: 10px;color: white;">&#x2192;</span></a>
-            <hr>
+          <div class="col-md-6">
+            <h2 class="mt-4">The Movie App</h2>
+            <div class="card" style="margin-top: 20px;">
+              <img class="card-img-top" src="images/m1.png" alt="The Movie App" style="width:100%">
+              <div class="card-body">
+                <h4 class="card-title">The Movie App</h4>
+                <p class="card-text">Discover new movies, watch trailers, get in touch</p>
+                <a href="https://pascal-owilly.github.io/Movie-App/" class="btn btn-primary">Visit site
+                  <span style="width: 10px; color: white;">&#x2192;</span>
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      <br><br>
-
-      <div class="col-md-6">
-        <h2
-          style="text-align: left;color: white;padding-top:font-family: verdana;font-weight:800;text-transform:capitalize;margin-top:-60px;font-family:verdana;">The Movie App</h2>
-
-        <div class="card" style="margin-top: 20px;">
-          <img class="card-img-top" src="images/m1.png" alt="Letuce eat" style="width:100%">
-          <div class="card-body">
-            <h4 class="card-title">The Movie App</h4>
-            <p class="card-text">Discover new movies, watch trailers, get in touch</p>
-            
-            <ol>
-
-
-            </ol>
-            <a href="https://pascal-owilly.github.io/Movie-App/" class="btn btn-primary"
-              style="background-color: black;color: rgb(23, 155, 78);">Visit site <span
-                style="width: 10px;color: white;">&#x2192;</span></a>
-            <hr>
-          </div>
-        </div>
-      </div>
-
-
-      
-      <h2 style="text-align: center;color: white;padding-top: 20px;font-family: verdana;font-weight: 800;">Find A Therapist</h2>
-      <div class="card">
-        <img class="card-img-top" src="images/therapist.png" alt="Letuce eat" style="width:100%">
-        <div class="card-body">
-          <h4 class="card-title">Find A Therapist</h4>
-          <p class="card-text">The online UI for therapists and their patients</p>
-
- 
-          <a href="https://apondi-otieno.github.io/Find-a-Therapist/" class="btn btn-primary"
-            style="background-color: black;color: rgb(23, 155, 78);">Visit site <span
-              style="width: 10px;color: white;">&#x2192;</span></a>
-
-          <p
-            style="text-align: right;font-family: verdana;color:white;text-decoration: overline;font-size: 24px;font-weight: 500;">
-            Check out more projects on my <a style="text-decoration: underline;" href="https://github.com/Pascal-Owilly">Repository</a> </p>
-        </div>
-      </div>
-
-      
-
     </div>
-    <div class="footer" style="margin-top: -10px;width: 100%;margin-left: -30px;">
-      <div class="glyphicons" style="margin-top:0;background-color: black;width: 100%;">
-        <p id="goToTop"
-          style="float: right;color: rgb(23, 155, 78);margin-right: 100px;text-decoration: underline;font-size: large;margin-top: 15px;">
-          <a href="#top"> Go to Top </a></p>
 
-        <a style="margin-left: -250px;padding-top: 20px;"
-          href="https://web.facebook.com/rascal.jack.7" class="fa fa-facebook"></a>&nbsp;&nbsp;
+    <footer class="footer" style="background-color: black; padding: 20px; text-align: center;">
+      <div class="glyphicons">
+        <a href="https://web.facebook.com/rascal.jack.7" class="fa fa-facebook"></a>&nbsp;&nbsp;
         <a href="https://www.linkedin.com/in/pascal-owilly-1964aa114" class="fa fa-linkedin"></a>&nbsp;&nbsp;
         <a href="https://www.youtube.com/channel/UC4afhCdLdKDzvjwrL6t0aWQ" class="fa fa-youtube"></a>&nbsp;&nbsp;
         <a href="https://www.instagram.com/pascal_owilly" class="fa fa-instagram"></a>&nbsp;&nbsp;
-        <p style="float: left;margin-top: -7px;color: rgb(23, 155, 78);">&copy; <span
-            style="font-family: verdana;color: white;font-size: 17px;opacity: .8;"> 2021 Pascal Owilly </span></p>
       </div>
-    </div>
-  </div>
-  </div>
+      <p style="color: rgb(23, 155, 78); margin-top: 10px;">&copy; 2021 Pascal Owilly</p>
+    </footer>
+  </nav>
 
 
 
-  <script src="script.js">
-  </script>
+
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </body>
 
 </html>
